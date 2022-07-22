@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ansimple"
+version = "0.1.0"
+description = "Simple version of Ansible, specifically ansible-playbook"
+authors = ["Maciej Szymanski <maciej.p.szymanski@proton.me>"]
+license = "Apache-2.0"
+
+[tool.poetry.scripts]
+ansimple = "ansimple.ansimple:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.6.0"
+isort = "^5.10.1"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

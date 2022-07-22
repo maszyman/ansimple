@@ -1,0 +1,14 @@
+/.vscode/
+__pycache__/
+*.py[co]
+/.pytest_cache/
+/.python-version
+/setup.py
+/dist/
+*.egg-info/
+/.venv/
+/venv/
+/.poetry/
+.coverage
+/htmlcov/
+*~
