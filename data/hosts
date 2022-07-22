@@ -1,0 +1,11 @@
+machine-ungrouped
+
+[dbservers]
+localhost
+othervm
+
+[webservers]
+127.0.0.1
+
+[other]
+localhost
