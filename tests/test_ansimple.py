@@ -12,6 +12,7 @@ def test_version():
     assert __version__ == "0.1.0"
 
 
+# test cases of valid playbooks
 valid_playbooks = [
     (
         b"""
@@ -70,6 +71,7 @@ valid_playbooks = [
     ),
 ]
 
+# test cases of invalid playbooks, e.g. missing keys
 invalid_playbooks = [
     b"""""",
     b"""
